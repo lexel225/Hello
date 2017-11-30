@@ -36,6 +36,8 @@ int main(void)
 
 	Output_string_length();
 
+	printf("Good Bye!!!\n");
+
 	return TRUE;
 }
 
