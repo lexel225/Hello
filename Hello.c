@@ -1,4 +1,7 @@
-
+/*
+ * This is a test program
+ *
+**/
 
 #include <stdio.h>
 #include <string.h>
