@@ -31,7 +31,7 @@ void Output_string_length(void)
 	printf("Output string length: %d\n", (unsigned int)strlen(input_str));
 }
 
-// Function description
+// Function description v2
 int main(void)
 {
 	printf("Hello World\n");
