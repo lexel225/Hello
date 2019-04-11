@@ -36,9 +36,9 @@ int main(void)
 {
 	printf("Hello World\n");
 
-	Output_random_number();
+//	Output_random_number();
 
-	Output_string_length();
+//	Output_string_length();
 
 	printf("Good Bye!!!\n");
 
