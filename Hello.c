@@ -11,7 +11,7 @@
 #define TRUE (1)
 #define FALSE (0)
 
-#define MAX(x,y) (X>=Y?X:Y)
+#define MAX(x,y) (x>=y?x:y)
 
 void Output_random_number(void)
 {
