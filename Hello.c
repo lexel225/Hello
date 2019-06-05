@@ -11,6 +11,8 @@
 #define TRUE (1)
 #define FALSE (0)
 
+#define MAX(x,y) (X>=Y?X:Y)
+
 void Output_random_number(void)
 {
 	unsigned int max;
@@ -40,6 +42,8 @@ int main(void)
 
 //	Output_string_length();
 
+	printf("MAX(1000,1)=%d\n", MAX(1000,1));
+	
 	printf("Good Bye!!!\n");
 
 	return TRUE;
