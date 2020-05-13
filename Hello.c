@@ -20,7 +20,14 @@ void Output_random_number(void)
 	srand((unsigned int)clock());
 	printf("Input Maximal number:");
 	scanf("%d", &max);
-	printf("Output random number: %d\n", rand() % max);
+
+	if (max != 0)
+		printf("Output random number: %d\n", rand() % max);
+	else
+	{
+		printf("Input zero!");
+	}
+	
 }
 
 void Output_string_length(void)
