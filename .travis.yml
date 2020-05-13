@@ -3,7 +3,14 @@ language: c
 compiler:
    - gcc
 
-script: make
+addons:
+  sonarcloud:
+    organization: "lexel225-sonar"
+    token: $SONAR_TOKEN
+
+script: 
+   - make
+   - sonar-scanner
 
 after_success: ./run
 
