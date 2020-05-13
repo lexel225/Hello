@@ -9,8 +9,7 @@ addons:
     token: $SONAR_TOKEN
 
 script: 
-   - build-wrapper-linux-x86-64 --out-dir build_wrapper_output_directory
-   - make
+   - build-wrapper-linux-x86-64 --out-dir build_wrapper_output_directory make
    - sonar-scanner
 
 after_success: ./run
