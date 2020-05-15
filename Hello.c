@@ -25,7 +25,7 @@ void Output_random_number(void)
 		printf("Output random number: %d\n", rand() % max);
 	else
 	{
-		printf("Input zero!");
+		printf("Input zero!!");
 	}
 	
 }
